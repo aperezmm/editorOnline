@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Editor código</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Editor en tiempo real</h1>
+        </header>
+        <div class="contenedor">
+            <textarea onkeyup="visualizarAhora()" class="area" id="area" placeholder="Codifica aquí..."></textarea>
+            <iframe class="vista" id="vista"></iframe>
+        </div>
+        <footer>
+            <span>Gracias por usar el servicio</span>
+        </footer>
+        
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
